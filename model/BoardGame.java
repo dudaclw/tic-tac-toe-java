@@ -19,4 +19,16 @@ public class BoardGame {
             System.out.println();
         }
     }
+    public void updateBoard(Move move, EnumPlayer player) {
+        this.getGameBoard()[move.getyAxis()][move.getxAxis()] = player.getValue();
+
+        printBoard();
+    }
+
+
+
+
+
+
+
 }
