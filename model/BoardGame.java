@@ -24,7 +24,7 @@ public class BoardGame {
 
         printBoard();
     }
-
+// terminar logica
 
 
 
